@@ -23,6 +23,8 @@ $LOCAL_LANG = Array (
 	'it' => Array (
 	),
 	'fr' => Array (
+    		'tt_content.list_type_pi1'         => 'Changement de mot de passe FE',
+        	'tt_content.pi_flexform.minlength' => 'Taille minimale du mot de passe',
 	),
 	'es' => Array (
 	),

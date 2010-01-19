@@ -43,6 +43,13 @@ $LOCAL_LANG = Array (
 		'pwtooshort' => 'Password troppo corta',
 	),
 	'fr' => Array (
+     		'submit_button_label' => 'Modifier le mot de passe',
+        	'password1'           => 'Saisir le nouveau mot de passe',
+        	'password2'           => 'Confirmer le nouveau mot de passe',
+        	'succes'              => 'Votre nouveau mot de passe a été sauvé',
+        	'pwnotequal'          => 'Les mots de passe ne correpondent pas',
+        	'pwtooshort'          => 'Le mot de passe est trop court',
+        	'pwillegal'           => 'Le mot de passe ne peut contenir que des lettres et des chiffres',
 	),
 	'es' => Array (
 	),
