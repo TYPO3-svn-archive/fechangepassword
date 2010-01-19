@@ -2,7 +2,7 @@
 /***************************************************************
 *  Copyright notice
 *
-*  (c) 2004 Allan Jacobsen (allan.j@cobsen.dk)
+*  (c) 2004-2010 Allan Jacobsen (allan.j@cobsen.dk)
 *  All rights reserved
 *
 *  This script is part of the TYPO3 project. The TYPO3 project is
@@ -69,7 +69,7 @@ class tx_fechangepassword_pi1 extends tslib_pibase {
 					$v = array(
 						'password' => $newpw
 					);
-					$res = $GLOBALS['TYPO3_DB']->exec_UPDATEquery('fe_users','uid="'.$GLOBALS['TYPO3_DB']->quoteStr($GLOBALS['TSFE']->fe_user->user['uid'],'fe_users').'"',$v);
+					$res = $GLOBALS['TYPO3_DB']->exec_UPDATEquery('fe_users','uid='.$GLOBALS['TYPO3_DB']->quoteStr($GLOBALS['TSFE']->fe_user->user['uid'],'fe_users'),$v);
 					$content.=$this->pi_getLL('succes','',1);
 				} else {
 					$content.=$this->pi_getLL('pwillegal','',1);
