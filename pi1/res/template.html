@@ -1,0 +1,46 @@
+<!-- ###FORM### begin-->
+	<form action="###ACTION###" method="POST">
+		<fieldset class="defaultForm">
+			<div class="formRow">
+				<label for="###NAME_PASSWORD###">
+					###LABEL_PASSWORD###
+				</label>
+				<input type="password" name="###NAME_PASSWORD###" id="###NAME_PASSWORD###" value="###VALUE_PASSWORD###" class="text">
+			</div>
+			<div class="formRow">
+				<label for="###NAME_PASSWORD2###">
+					###LABEL_PASSWORD2###
+				</label>
+				<input type="password" name="###NAME_PASSWORD2###" id="###NAME_PASSWORD2###" value="###VALUE_PASSWORD2###" class="text">
+			</div>
+			<div class="formRow">
+				<input type="submit" name="###NAME_SUBMIT###" id="###NAME_SUBMIT###" value="###VALUE_SUBMIT###" class="submit" />
+			</div>
+		</fieldset>
+	</form>
+<!-- ###FORM### end-->
+<!-- Original HTML code:
+<table '.$this->conf['tableParams_details'].'>
+	<tr>
+		<td>
+			<p>'.$this->pi_getLL('password1','',1).'</p>
+		</td>
+		<td><input type="hidden" name="no_cache" value="1">
+			<input type="password" name="'.$this->prefixId.'[pw]" value="'.htmlspecialchars($this->piVars["pw"]).'">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<p>'.$this->pi_getLL('password2','',1).'</p>
+		</td>
+		<td>
+			<input type="password" name="'.$this->prefixId.'[pw2]" value="'.htmlspecialchars($this->piVars["pw2"]).'">
+		</td>
+	</tr>
+	<tr>
+		<td colspan=2 align=center>
+			<input type="submit" name="'.$this->prefixId.'[submit_button]" value="'.htmlspecialchars($this->pi_getLL("submit_button_label")).'">
+		</td>
+	</tr>
+</table>
+-->

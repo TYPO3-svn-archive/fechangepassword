@@ -1,0 +1,8 @@
+(add new changes on top of this file)
+
+27-08-2007 Sonja Scholz, cab services ag <ss@cabag.ch>, <www.cabag.ch>
+
+	* added files setup.txt for TYPOscript and template.html for HTML template
+	* changed the main function in class tx_fechangepassword_pi1, so from now the HTML template is used for the content output
+	* changed the HTML template to a "div" layout
+	* the path to the HTML template file is defined in the TS option "templateFile"
