@@ -57,7 +57,7 @@ class tx_fechangepassword_pi1 extends tslib_pibase {
 		$this->tmpl = $this->cObj->fileResource($this->conf['templateFile']);
 		/*cab services ag - end */
 		
-		debug($GLOBALS['TSFE']);
+	//	debug($GLOBALS['TSFE']);
 		if ($GLOBALS['TSFE']->loginUser)        {
 			$newpw=$this->piVars['pw'];
 			$newpw2=$this->piVars['pw2'];
